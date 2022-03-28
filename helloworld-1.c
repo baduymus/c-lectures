@@ -7,8 +7,8 @@ main()
 {
 
     printf("Merahaba Ben Batuhan");
-    printf("\nBen C dilini gömülü sistemler için öğreniyorum.");
-    printf("Çalışmaya son sürat devam edeceğim");
+    printf("\nBen C dilini gomulu sistemler icin ogreniyorum.");
+    printf("\nCalismaya son surat devam ediyorum");
     return 0;
 
 }
