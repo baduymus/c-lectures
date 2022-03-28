@@ -13,5 +13,7 @@ return 0;
 
 //for (i = 0; i < 25; i++) /* Counts from 0 to 25 */
 
+/* whitespacelere dikkat etmem gerekiyor çünkü kodun okunabirliği için bi
+bilgisayarın kodu anlamasına gerek yok fakat diğer insanların kodu anlaması gerekli*/
 
 }
