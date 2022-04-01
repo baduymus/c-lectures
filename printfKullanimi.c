@@ -23,13 +23,13 @@ main(){
         // ESCAPE SEQUENCES
 
     /*
-        \n  new line   
-        \a  Alarm(the computer's bell)
-        \b  Backspace
-        \t  Tab
-        \\  Backslash
-        \'  Single quote mark
-        \*  Double quote mark
+        \n
+        \a
+        \b
+        \t
+        \\
+        \'
+        \* 
 
     */
 
@@ -40,7 +40,6 @@ main(){
 
     printf("Write code\nLearn C");
 
-    
 
 
 
