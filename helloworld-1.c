@@ -10,6 +10,5 @@ main()
     printf("\nBen C dilini gomulu sistemler icin ogreniyorum.");
     printf("\nCalismaya son surat devam ediyorum");
     return 0;
-    printf("Dnememememmemememme");
-    printf("denememememe");
+    printf("Deneme");
 }
