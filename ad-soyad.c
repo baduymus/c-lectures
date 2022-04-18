@@ -3,10 +3,13 @@
 
 main() {
 
+
+printf("*********Kisi Bilgi ******");
+printf("\n\n");
 printf("Ad: Batuhan\n");
-printf("Soyadı: Arslan\n");
-printf("Yaşı: 24\n");
-printf("Oturduğu yer: Istanbul");
+printf("Soyadi: Arslan\n");
+printf("Yaşi: 24\n");
+printf("Oturdugu yer: Istanbul");
 
 
 }
