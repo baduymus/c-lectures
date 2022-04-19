@@ -4,7 +4,7 @@
 main() {
 
 
-printf("*********Kisi Bilgi ******");
+printf("*********Kisi Bilgi *********");
 printf("\n\n");
 printf("Ad: Batuhan\n");
 printf("Soyadi: Arslan\n");
