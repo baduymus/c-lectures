@@ -21,7 +21,7 @@ int main(){
 
     //Bir Personelin bilgilerini tutan bir menü yapıyorum.
 
-    char Ad[10],Soyad[10],Yas[2],Sehir[13],Meslek[8];
+    /*char Ad[10],Soyad[10],Yas[2],Sehir[13],Meslek[8];
     printf("Adiniz: ");
     scanf("%s",Ad);
 
@@ -44,7 +44,7 @@ int main(){
     printf("Meslek: %s - Sehir: %s\n",Meslek,Sehir);
 
 
-    return 0;
+    return 0; */
 
     // Ödev 
     /*kitap Adı
@@ -54,4 +54,17 @@ int main(){
     basim evi
     tür 
     olarak bir menü oluşturacağım*/
+
+    char kitapadi[12];
+    char yazari[5];
+    char sayfa_sayisi[3];
+    char basim_tarih[4];
+    char basim_evi[11];
+    char tur[10];
+
+    printf("Lutfen Kitap Adi Giriniz: ");
+    scanf("%s",kitapadi);
+    printf("Girmis oldugunuz kitap adi : %s" ,kitapadi);
+
+
 }
