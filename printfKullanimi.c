@@ -1,9 +1,12 @@
-#include<stdio.h>
+#include<stdio.h> //standart libary
 #include<stdlib.h>
 
-main() {
+int main() { /*main fonksiyonu işletim 
+sisteminden çağırılan özel bir fonksiyondur*/
+
 
     printf("Hello");
 
+    return 0;
 
 }
