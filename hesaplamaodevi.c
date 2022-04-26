@@ -5,7 +5,7 @@
 int main(){
     int a,b,c;
 
-    printf("\nLutfen a,b ve c degelerini giriniz : ");
+    printf("Lutfen a,b ve c degelerini giriniz : ");
     scanf("%d%d%d",&a,&b,&c);
-    printf("\nDenklemin sonucu : %d",a*a+b*b+3*c);
+    printf("Denklemin sonucu : %d",a*a+b*b+3*c);
 }
