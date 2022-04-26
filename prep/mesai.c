@@ -29,7 +29,7 @@ int main(){
     else if(mesai>=20){
 
         printf("Calisanin Mesai Ucreti : %d",80+(mesai-20)*2);
-        printf("TRY");
+        printf(" TRY");
     }
 
 }
