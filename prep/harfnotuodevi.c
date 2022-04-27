@@ -1,12 +1,12 @@
 #include<stdio.h>
 
 int main(){
-    float vize,final;
-    float ortalama = vize*0.4+final*0.6;
-    printf("*****HARF NOTU HESAPLAMA*****");
+    int vize,final;
+    printf("\n*****HARF NOTU HESAPLAMA*****");
     printf("Lutfen Vize ve Final Notlarinizi giriniz : ");
     scanf("%d%d",&vize,&final);
-    printf("Not ortalamaniz : %d\n ",ortalama);
+    int ortalama = (vize*0.4+final*0.6);
+    printf("\nNot ortalamaniz : %d ",ortalama);
     
 
     //90 üzeri 
@@ -14,13 +14,13 @@ int main(){
 
         printf("HARF NOTUNUZ : A");
     }
-    else if (ortalama>80 && ortalama<90)
+    else if (ortalama>80)
     {
         printf("HARF NOTUNUZ : B");
     }
-    else if (ortalama>70 && ortalama<80)
+    else if (ortalama>70)
     {
-        printf("HARF NOTUNUZ : A");
+        printf("HARF NOTUNUZ : C");
     }
     else{
 
