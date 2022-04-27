@@ -9,6 +9,7 @@ yazmanız isteniyor. Programın özellikleri aşağıdaki
 */
 
 #include<stdio.h>
+
 int main(){
     int mesai;
     printf("Lutfen kac saate mesai yaptigini giriniz : ");
@@ -32,4 +33,5 @@ int main(){
 
     }
 }
+
 
