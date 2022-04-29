@@ -81,7 +81,7 @@ int main(){
 
     //Kullanici -1 değerini girene kadar yazılan en büyüğünü bulan kod:
 
-    int girilen = 0;
+    /*int girilen = 0;
     int eb = 0;
 
     while(girilen != -1){
@@ -92,5 +92,6 @@ int main(){
             eb = girilen;
 
     }
-    printf("eb : %d",eb);
+    printf("eb : %d",eb);*/
+    
 }

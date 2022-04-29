@@ -1,1 +1,1 @@
-    int girilen;
+scanf("%d", &b)
