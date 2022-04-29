@@ -62,11 +62,35 @@ int main(){
      //Kullanicidan 3 adet sayi okuyup en
      //Büyüğünü ekrana yazan kod
 
-    
+
 
      
-    
+    /*int girilen;
+    int eb = 0;
+
+    for(int i=0;i<5;i++){
+        scanf("%d",&girilen);
+        printf("simdiye kadar girilen eb sayi : %d ",eb);
+
+        if(girilen>eb)
+            eb= girilen;
+    }
+    printf("eb : %d",eb);*/
 
 
 
+    //Kullanici -1 değerini girene kadar yazılan en büyüğünü bulan kod:
+
+    int girilen = 0;
+    int eb = 0;
+
+    while(girilen != -1){
+        printf("Lutfen bir sayi giriniz : ");
+        scanf("%d",&girilen);
+        printf("Girilen deger : %d\n", girilen);
+        if(girilen>eb)
+            eb = girilen;
+
+    }
+    printf("eb : %d",eb);
 }
