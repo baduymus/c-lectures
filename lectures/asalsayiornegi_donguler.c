@@ -7,12 +7,13 @@ int  main(){
 
     int a = 1,b;
     scanf("%d",&b); 
-    int flag = 0;
+    int flag = 0;  
     while(a<b-1){
         a++;
         if(b%a == 0){
             flag = 1;
-            break;
+            break; //döngüleri kırmak için kullanılır.
+            //if koşulunu sağlıyorsa tamamdır.
         }
     }
     if (flag == 0)

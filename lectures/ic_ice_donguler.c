@@ -8,15 +8,26 @@
     #include<stdio.h>
 
     int main(){
-        int i,j; //foo,bar
-        for (i = 0; i < 5; i++){
-            for (j = 0; j < 5; j++){
-                    printf("%d",i*j);
+        /*int i,j; //foo,bar
+        for (i = 1; i < 10; i++){
+            for (j = 1; j < 6; j++){
+                    printf(" %d",i*j);
 
             }
-            printf("\n")
-        }
+            printf("\n");
+        }*/
             
-    
+    //Ekrana yildizlarla "*" ile dik üçgen çizdirme
+
+        int i,j;
+        for(i = 1; i <= 5; i++){
+            for (j = 1; j <= i ; j++){
+                    printf("*");
+            }
+
+            printf("\n");
+        }
+        
+
 
     }
