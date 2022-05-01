@@ -54,10 +54,8 @@ int main(){
 
     char cdizi_2[9] = "diziler" ;
 
-    printf("%s ",cdizi[2]);
+    printf("%c",cdizi[5]);
 
     return 0;
     
-
-
 }
