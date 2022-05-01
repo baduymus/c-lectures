@@ -32,25 +32,32 @@ int main(){
         printf("%d ", idizi[id]);
     }*/
 
-    int ilk_dizim[5] = {8, 21,24,34,50};
 
+    /*Program önce oluşturduğu tek boyutlu beş elemanlı ve idizi
+    adlı int bir diziye , 1'den 5'e kadar olan sayıları ilk değer
+    atama metodu ile atar ve bir for döngüsü ile dizi elemanlarını
+    ekrana yazdırır.*/
+    
+    /*int ilk_dizim[5] = {8, 21,24,34,50};
     int id;
 
     for(id = 0; id<5; id++)
-    {
-        ilk_dizim[id] = id + 1;
+        
         printf("%d ", ilk_dizim[id]);
 
-        return 0;
-
-        
-    } 
+        return 0;*/
 
 
-
+    // Tek boyutlu char dizilere ilk değer atama 
     
-    
+    char cdizi[9] = {'K','a','r','a','k','t','e','r','\0'};
 
+    char cdizi_2[9] = "diziler" ;
+
+    printf("%s ",cdizi[2]);
+
+    return 0;
+    
 
 
 }
