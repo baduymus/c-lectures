@@ -17,7 +17,6 @@ int main(){
 
     return 0;*/
 
-
     /*int idizi[10];
     int id;
     // Dizinin elemanlarının 1-10 arasındaki değerleri sıra ile atama 
@@ -50,12 +49,33 @@ int main(){
 
     // Tek boyutlu char dizilere ilk değer atama 
     
-    char cdizi[9] = {'K','a','r','a','k','t','e','r','\0'};
+   /* char cdizi[9] = {'K','a','r','a','k','t','e','r','\0'};
 
     char cdizi_2[9] = "diziler" ;
 
-    printf("%c",cdizi[5]);
+    printf("%c",cdizi_2[5]);
 
+    return 0;*/
+
+
+    char name[6][6][6][6][6][6] = {{"AHMET"},{"MEHMET"},{"CAN"},{"ERDAL"},{"NAZIM"},{"HIKMET"}};
+    for(int i = 0; i<=5;i++){
+
+        printf("%d. Name : %s\n",name[i]);
+        
+            for (int j = 1; j <=6; j++){
+
+                    
+            }
+        
+    }
+    
     return 0;
     
+
+    /*char isimler[5] = {"AHMET","MEHMET","CAN","ERDAL","NAZIM","HIKMET"};
+
+    printf("%s",isimler[2]);
+
+    return 0;*/
 }
