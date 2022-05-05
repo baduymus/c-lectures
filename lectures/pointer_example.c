@@ -15,7 +15,8 @@ int main(){
     printf("\n-->%d",&ptr);*/
 
     int *ptr = &x;
-
+    //pointerların değerlerini gösterirken başına *koyuyorsak pointerin degerini verir 
+    //eger pointerin adresini direk görmek istersek printf("\n%d",ptr) diye yazarız.
     
 
     printf("\n*ptr degiskenin degeri--> %d ",*ptr);

@@ -15,7 +15,10 @@ int main(){
     printf("\nogrencinin ikinci adresi : %d",ptr+1);
 
     printf("\nogrencinin ilk deger : %d",*ptr);
-    printf("\nogrencinin ilk deger : %d",*(ptr+1));
+    printf("\nogrencinin ikinci deger : %d",*(ptr+1));
+    printf("\nogrencinin ucuncu deger : %d",*(ptr+2));
 
+
+    return 0;
 
 }
