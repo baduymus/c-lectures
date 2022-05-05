@@ -2,7 +2,7 @@
 
 int main(){
 
-    int a=10;
+    /*int a=10;
     int *p;
 
     p = &a;
@@ -15,6 +15,24 @@ int main(){
     printf("%d\n",&a); // a'nın adresini basar
     printf("%d\n",&p);// p'nin adresini basar
 
-    return 0;
+    return 0;*/
 
+    int myAge = 43;
+    // *(yıldız) &(ampersant)
+    //pointerlarda bir değişkendir.
+    printf("%d",myAge);
+    printf("\n%d",&myAge); //myage in ramde tutulduğu adres
+    printf("\nmyAge degiskeninin boyutu %d byte",sizeof(myAge));
+    
+
+    int *ptr = &myAge;
+
+
+    /*  ptr nedir
+        *ptr nedir
+         &ptr nedir */
+
+        printf(" \nptr -->%d",ptr);
+        printf(" \n&ptr -->%d",&ptr);
+        printf(" \n*ptr -->%d",*ptr);
 }
