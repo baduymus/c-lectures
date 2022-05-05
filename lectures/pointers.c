@@ -17,22 +17,45 @@ int main(){
 
     return 0;*/
 
-    int myAge = 43;
+    //int myAge = 43;
     // *(yıldız) &(ampersant)
     //pointerlarda bir değişkendir.
-    printf("%d",myAge);
-    printf("\n%d",&myAge); //myage in ramde tutulduğu adres
-    printf("\nmyAge degiskeninin boyutu %d byte",sizeof(myAge));
+        //size of demek bize bir değerin ram üzerinde kapladığı yer.
+    //ampersant karakteri belirmemiş olduğumuz değişkenin adresini söyler bize
+    //printf("%d",myAge);
+    //printf("\n%d",&myAge); //myage in ramde tutulduğu adres
+   // printf("\nmyAge degiskeninin boyutu %d byte",sizeof(myAge));
     
+    //int *ptr = &myAge;
 
-    int *ptr = &myAge;
+
 
 
     /*  ptr nedir
         *ptr nedir
          &ptr nedir */
 
-        printf(" \nptr -->%d",ptr);
-        printf(" \n&ptr -->%d",&ptr);
-        printf(" \n*ptr -->%d",*ptr);
+        //printf(" \nptr -->%d",ptr);
+        //printf(" \n&ptr -->%d",&ptr);
+        //printf(" \n*ptr -->%d",*ptr);
+
+
+        double x = 30.0;
+        
+        printf("\n%f",x);
+        printf("\n%d",&x);
+        printf("\n%d",sizeof(x));
+
+        //int *p = (int) &x; 
+        
+        double *p = &x;
+
+        printf("\n*p---->%.0lf",*p);
+
+        /*printf("\np---->%d",p);
+        printf("\n&p---->%d",&p);
+        printf("\n*p---->%f",*p);*/
+
+
+
 }
