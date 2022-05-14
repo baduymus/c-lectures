@@ -38,6 +38,7 @@ typedef enum{
 
 
 typedef struct {
+    
     int yas;
     char *isim;
     cinsiyet c;
@@ -59,9 +60,8 @@ int emeklimi(insan *birey){
 
 int main(){
 
-    
 
-    
+
     /*batu degiskeni bir oointer olduğu için öncelikle bunun
     içerisine bir deger atamadan önce malloc memorial location yapmak
     gerekiyor
@@ -86,7 +86,8 @@ int main(){
 
     printf("\nali emekli mi  :%d",emeklimi(&ali));
 
-    
+
+
 
 
 }

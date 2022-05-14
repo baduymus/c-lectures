@@ -29,8 +29,6 @@ int main(){
     //int *ptr = &myAge;
 
 
-
-
     /*  ptr nedir
         *ptr nedir
          &ptr nedir */
@@ -55,6 +53,8 @@ int main(){
         /*printf("\np---->%d",p);
         printf("\n&p---->%d",&p);
         printf("\n*p---->%f",*p);*/
+
+
 
 
 
