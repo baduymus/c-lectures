@@ -5,15 +5,15 @@
 
 typedef enum{
 
-    BilgisayarMuhendisi, //0
-    ElektrikMuhendisi,  //1
-    ElektronikMuhendisi,  //2
-    MakineMuhendisi, //3
-    MalzemeMuhendisi, //4
-    CevreMuhendisi, //5
-    InsaatMuhendisi, //6
-    OtomativMuhnedisi, //7
-    MekatronikMuhendisi //8 
+    BilgisayarMuhendisi,        //0
+    ElektrikMuhendisi,          //1
+    ElektronikMuhendisi,        //2
+    MakineMuhendisi,            //3
+    MalzemeMuhendisi,           //4
+    CevreMuhendisi,             //5
+    InsaatMuhendisi,            //6
+    OtomativMuhnedisi,          //7
+    MekatronikMuhendisi         //8
 
 }muhendislik_alani;
 

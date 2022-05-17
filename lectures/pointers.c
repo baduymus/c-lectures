@@ -41,8 +41,8 @@ int main(){
         double x = 30.0;
         
         printf("\n%f",x);
-        printf("\n%d",&x);
-        printf("\n%d",sizeof(x));
+        printf("\n%d",&x); //& bizim adresimizi gösteriyor
+        printf("\n%d",sizeof(x)); //sizeof  x in ne kadar alan kapladığını gösteriyor.
 
         //int *p = (int) &x; 
         
