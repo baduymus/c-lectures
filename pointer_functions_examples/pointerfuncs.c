@@ -26,12 +26,12 @@ atandı*/
 
 int main(){
 
-    void(*fun_ptr_arr[])(int, int) = {add,substract,multiplies};
+    void(*fun_ptr_arr[])(int, int) = {add,substract,multiply};
     unsigned int ch, a =15, b = 10;
 
     printf("Enter choice: 0 for add, 1 for subtract and 2 for multiply\n");
 
-    scanf("%d"&ch);
+    scanf("%d",&ch);
 
     if(ch > 2) return 0;
 
